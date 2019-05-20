@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.1.11" sequence="0" timestamp="1558334631000" analysisTimestamp="1558334643338" release="">
+  <Project>
+    <Jar>/Users/sengle/code/sonar-scanning-examples/sonarqube-scanner-maven/app-it/target/classes/example/EmptyClass.class</Jar>
+    <AuxClasspathEntry>/Users/sengle/code/sonar-scanning-examples/sonarqube-scanner-maven/app-it/target/classes</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/sengle/code/sonar-scanning-examples/sonarqube-scanner-maven/app-java/target/app-java-1.0-SNAPSHOT.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/sengle/code/sonar-scanning-examples/sonarqube-scanner-maven/app-it/target/sonar/findbugs/annotations.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/sengle/code/sonar-scanning-examples/sonarqube-scanner-maven/app-it/target/sonar/findbugs/jsr305.jar</AuxClasspathEntry>
+    <WrkDir>/Users/sengle/code/sonar-scanning-examples/sonarqube-scanner-maven/app-it/target/sonar</WrkDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 20 May 2019 14:43:51 +0800" total_classes="1" referenced_classes="9" total_bugs="0" total_size="3" num_packages="1" java_version="1.8.0_171" vm_version="25.171-b11" cpu_seconds="1.17" clock_seconds="0.43" peak_mbytes="448.06" alloc_mbytes="3641.00" gc_seconds="0.03">
+    <FileStats path="example/EmptyClass.java" bugCount="0" size="3"/>
+    <PackageStats package="example" total_bugs="0" total_types="1" total_size="3">
+      <ClassStats class="example.EmptyClass" sourceFile="EmptyClass.java" interface="false" size="3" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="144" invocations="287" avgMicrosecondsPerInvocation="501" maxMicrosecondsPerInvocation="28323" standardDeviationMicrosecondsPerInvocation="1870"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="63" invocations="288" avgMicrosecondsPerInvocation="221" maxMicrosecondsPerInvocation="3226" standardDeviationMicrosecondsPerInvocation="210"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="15" invocations="255" avgMicrosecondsPerInvocation="61" maxMicrosecondsPerInvocation="861" standardDeviationMicrosecondsPerInvocation="109"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="13" invocations="9" avgMicrosecondsPerInvocation="1511" maxMicrosecondsPerInvocation="7628" standardDeviationMicrosecondsPerInvocation="2314"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="12" invocations="34" avgMicrosecondsPerInvocation="355" maxMicrosecondsPerInvocation="935" standardDeviationMicrosecondsPerInvocation="244"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
